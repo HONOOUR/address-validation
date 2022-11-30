@@ -3,11 +3,11 @@ test program for returning a valid road address name (도로명)
 
 ## Overview
 ### Input case
-한글 또는 영문 + (숫자) + 로|길 + (숫자) + 한글 또는 영문
+한글|영문 + (숫자) + 로|길 + (숫자) + 한글|영문
 
 ### Behaviour
 1. Input enhancement
-   <br/> 한글 또는 영문 + (숫자) + 로|길 + (숫자)
+   <br/> 한글|영문 + (숫자) + 로|길 + (숫자)
 2. juso API
    <br/>`https://business.juso.go.kr/addrlink/addrLinkApi.do?` <br/>“rn” 해쉬키에 도로명만 저장하고 있음
 
